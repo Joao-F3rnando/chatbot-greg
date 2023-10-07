@@ -1,0 +1,30 @@
+.botBodyMessage {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.botHeaderMessage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botHeaderMessage p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.botMessage {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.botMessage p {
+    word-break: break-all;
+    padding: 8px;
+    font-size: 14px;
+    margin: 0;
+}

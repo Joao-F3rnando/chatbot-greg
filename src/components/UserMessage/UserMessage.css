@@ -1,0 +1,29 @@
+.UserbodyMessage {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.userHeaderMessage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userHeaderMessage p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.userMessage {
+    display: flex;
+    align-content: space-between;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.userMessage p {
+    word-break: break-all;
+    padding: 8px;
+    font-size: 14px;
+    margin: 0;
+}
